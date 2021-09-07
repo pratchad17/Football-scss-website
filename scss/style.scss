@@ -13,9 +13,11 @@ $padding:5%;
     padding: 0;
 }
 body{
+    overflow-x: hidden;
     font: {
         family:$myFont;
         size: $myFontSize;
+        
 
     }
     nav{
@@ -130,6 +132,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(157, 209, 233, 0.911);
+    width: 100%;
 
     .footer-img img{
         width: 260px;

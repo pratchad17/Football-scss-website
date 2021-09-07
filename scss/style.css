@@ -4,6 +4,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
 }
@@ -128,6 +129,7 @@ body footer {
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(157, 209, 233, 0.911);
+  width: 100%;
 }
 
 body footer .footer-img img {
